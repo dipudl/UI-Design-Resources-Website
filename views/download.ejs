@@ -1,0 +1,52 @@
+<%- include("partials/header"); -%>
+
+  <div class="path-div">
+    <a href="/category/<%= format_for_url(category[0]) %>" title="<%= category[0] %> design template"><h2 class="path-h2"><%= category[0] %></h2></a>
+    <img class="path-arrow" src="/images/ui/arrow-next.png" alt=">"/>
+    <a href="#" title="Download UI design template | <%= title %>"><h2 class="path-h2"><%= title %></h2></a>
+  </div>
+
+  <div class="row">
+      <div class="col-md-12 col-lg-8 design-images-col">
+        <% design_image.forEach(big_image => { %>
+          <img src="<%= big_image %> " alt="<%= title %>" class="design-display-img"/>
+        <% }) %>
+      </div>
+      <div class="col-md-12 col-lg-4">
+          <div class="design-download-div">
+            <h1 class="download-h1"><%= title %></h1>
+            <p class="download-p"><%= description %></p>
+            <hr class="download-hr"/>
+            <h2 class="download-h2">
+              <span class="details-title">Made with:&nbsp;</span>
+              <% softwares.forEach((software, index) => { %>
+                <a class="download-div-link" href="/type/<%=format_for_url(software)%>" target="_blank" title="Download <%= software %> design templates"><%=software%></a><% if (index < softwares.length - 1) { %>, <% } %>
+              <% }) %>
+            </h2>
+            <h2 class="download-h2">
+              <span class="details-title">Category: &nbsp;</span>
+              <% category.forEach((each_category, index) => { %>
+                <a class="download-div-link" href="/category/<%= format_for_url(each_category) %>" target="_blank" title="Download <%= each_category %> design templates"><%= each_category %></a><% if (index < category.length - 1) { %>, <% } %>
+              <% }) %>
+            </h2>
+            <h2 class="download-h2"><span class="details-title">Designer: &nbsp;</span><a class="download-div-link" href="<%= author_link %>" target="_blank"><%= author %></a></h2>
+            <div class="download-buttons-div">
+              <% softwares.forEach((software, index) => { %>
+                <a href="<%= download_link[index] %>" target="_blank" title="Download <%= software %> design template"><button class="download-button">Download for <%= software %></button></a>
+              <% }) %>
+            </div>
+          </div>
+      </div>
+  </div>
+
+  <hr class="middle-hr hr-style"/>
+
+  <h2 class="people-viewed-title">People also viewed</h2>
+
+  <div class="row">
+    <% people_also_viewed.forEach(design => { %>
+      <%- include("partials/design", { design: design }); -%> 
+    <% }) %>
+  </div>
+
+  <%- include("partials/footer"); -%>

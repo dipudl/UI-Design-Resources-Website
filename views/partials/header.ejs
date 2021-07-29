@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="author" content="UI Design Resources">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title><%= title %> | UI Design Resources</title>
+    <meta name="keywords" content="<%= keywords %>">
+    <meta name="description" content="<%= description %>">
+
+    <meta property="og:locale" content="en_US">
+    <meta property="og:title" content="UI Design Resources | <%= title %>">
+    <meta property="og:url" content="<%= page_url %>">
+    <meta property="og:description" content="<%= description %>">
+    <meta property="og:site_name" content="UI Design Resources">
+    <meta property="og:type" content="product">
+    <meta property="og:image" content="<%= image %>">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="<%= description %>">
+    <meta name="twitter:title" content="UI Design Resources | <%= title %>">
+    <meta neme="twitter:image" content="<%= image %>">
+    
+    <% if (typeof canonical !== 'undefined') { %>
+      <link rel="canonical" href="<%= base_url %><%= canonical %>">
+    <% } %>
+    <link rel="shortcut icon" type="image/png" href="/images/ui/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/<%= css_file %>.css">
+</head>
+<body>
+  <header>
+    <%- include("navbar"); -%>
+  </header>

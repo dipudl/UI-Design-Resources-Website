@@ -1,0 +1,92 @@
+{
+    "home": {
+      "title": "Download Free UI Design Kits for Figma, Adobe XD, Sketch, Invision Studio",
+      "keywords": "ui design resources, download free ui design template, free ui kits, free ui design, free sketch ui kit, free adobe xd ui kit, free figma ui kit, free invision studio ui kit, free icons, download free website ui ux design",
+      "description": "Free download high quality UI/UX design templates, kits, icons, illustrations & resources for Figma, Adobe XD, Sketch, Invision Studio and more",
+      "css_file": "styles",
+      "hero_button": "Let’s explore",
+      "base_url":"https://YOUR-WEBSITE.com",
+      "page_url":"https://YOUR-WEBSITE.com",
+      "image": "https://YOUR-WEBSITE.com/images/ui/hero-image.png"
+    },
+    "download": {
+      "css_file": "download",
+      "base_url":"https://YOUR-WEBSITE.com"
+    },
+    "page_not_found": {
+      "title": "404 Page not found",
+      "keywords": "404 page not found, ui design resources, download free ui design template, free ui kits, free ui design, free sketch ui kit, free adobe xd ui kit, free figma ui kit, free icons, download free website ui ux design",
+      "description": "The page you are requesting does not exist. Meanwhile you can explore other UI design resources.",
+      "css_file": "styles",
+      "hero_button": "Explore Other Designs",
+      "base_url":"https://YOUR-WEBSITE.com",
+      "page_url":"https://YOUR-WEBSITE.com",
+      "image": "https://YOUR-WEBSITE.com/images/ui/hero-image.png"
+    },
+    "config": {
+      "page_items_count": 9,
+      "recommendation_count": 3
+    },
+    "designs": [
+      {
+        "thumbnail": "/images/thumbnail/saly-3d-illustration-pack-for-ui.png",
+        "design_image": ["/images/design-item/saly-3d-illustration-pack-for-ui-1.png", "/images/design-item/saly-3d-illustration-pack-for-ui-2.png"],
+        "title": "SALY - 3D Illustration Pack for UI",
+        "softwares": ["Figma"],
+        "description": "Collection of high-quality 3D illustrations, hand-crafted and full of personalities. FREE to use for your exploration or personal project. Over 30 illustrations and will keep updated in the future. Enjoy!",
+        "author": "Alzea Arafat",
+        "author_link": "https://dribbble.com/alzea",
+        "category": ["Illustrations"],
+        "download_link": [
+          "https://www.figma.com/community/file/890095002328610853"
+        ]
+      },
+      {
+        "thumbnail": "/images/thumbnail/home-automation-landing-page-for-figma.png",
+        "design_image": ["/images/design-item/home-automation-landing-page-for-figma-1.png", "/images/design-item/home-automation-landing-page-for-figma-2.png", "/images/design-item/home-automation-landing-page-for-figma-3.png"],
+        "title": "Home Automation Landing Page for Figma",
+        "softwares": ["Figma"],
+        "description": "Awesome and sleek landing page for home automation tools which includes home, blog and contact page.",
+        "author": "Afrianska",
+        "author_link": "https://dribbble.com/afrianska",
+        "category": ["Landing Pages"],
+        "download_link": [
+          "https://www.figma.com/file/vRMJVq9Byaw7lHp9O5Dzlz/afrianska-landingpage?node-id=0%3A1930"
+        ]
+      },
+      {
+        "thumbnail": "/images/thumbnail/contra-open-source-wireframe-kit.png",
+        "design_image": ["/images/design-item/contra-open-source-wireframe-kit-1.png", "/images/design-item/contra-open-source-wireframe-kit-2.png"],
+        "title": "Contra - Open Source Wireframe Kit",
+        "softwares": ["Figma", "Adobe XD", "Sketch", "Invision Studio"],
+        "description": "A starter wireframe kit for quick design and prototyping your idea. Its library contains more than 150+ components and 50+ ready to use mobile screens. You can also create new components and screens easily with the help of its style guide.",
+        "author": "Vijay Verma",
+        "author_link": "https://vijayverma.co/",
+        "category": ["Wireframes", "UI Kits", "Apps"],
+        "download_link": [
+          "https://contrauikit.com/",
+          "https://contrauikit.com/",
+          "https://contrauikit.com/",
+          "https://contrauikit.com/"
+        ]
+      },
+      {
+        "thumbnail": "/images/thumbnail/free-line-icon-pack.png",
+        "design_image": ["/images/design-item/free-line-icon-pack-1.png"],
+        "title": "Free Line Icon Pack for Figma, Adobe XD, Sketch, AI & more",
+        "softwares": ["Figma", "Adobe XD", "Sketch", "Invision Studio", "Adobe Illustrator"],
+        "description": "320+ Line Icon Pack - Custom stroke edition is an icon-based system for your design tool. This is the version with editable strokes to fits more complex your needs. All design files are well organized and ready to use in your product. Sorted by categories, named for development. Including the end tool files with structured artboards and components.",
+        "author": "Petr Bilek",
+        "author_link": "https://www.petrbilek.com/",
+        "category": ["Icons"],
+        "download_link": [
+          "https://gumroad.com/l/line-icon-pack",
+          "https://gumroad.com/l/line-icon-pack",
+          "https://gumroad.com/l/line-icon-pack",
+          "https://gumroad.com/l/line-icon-pack",
+          "https://gumroad.com/l/line-icon-pack"
+        ]
+      }
+    ]
+  }
+  

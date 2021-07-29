@@ -1,0 +1,44 @@
+<%- include("partials/header"); -%>
+
+  <div class="row hero-row">
+    <div class="col-md-12 col-lg-6 hero-text-div">
+      <h1 class="hero-h1">Free <%= h1_name %> Design Resources For All of Your Needs</h1>
+      <h2 class="hero-h2">Explore and download great <%= h2_name %> for your awesome projects</h2>
+      <a href="#designs" title="Download UX/UI design kits and templates"><button class="hero-button"><%= hero_button %></button></a>
+    </div>
+    <div class="col-md-12 col-lg-6 hero-image-div">
+      <img class="hero-image" src="/images/ui/hero-image.png" alt="UI Design Resources | Download Free UI Design Kits for Figma, Adobe XD, Sketch, Invision Studio"/>
+    </div>
+  </div>
+
+  <hr id="designs" class="top-hr hr-style"/>
+
+  <div class="design-navigation">
+    <a href="/#designs" class="design-tab <% if(active === "All designs") { %>active<% } %>" title="Download free Figma, Adobe XD, Sketch design template and 3D illustrations">All designs</a>
+    <% categories.forEach(category => { %>
+      <a href="/category/<%=format_for_url(category)%>#designs" class="design-tab <% if(active === category) { %>active<% } %>" title="Download free <%=category%> design template"><%=category%></a>
+    <% }) %>
+  </div>
+
+  <div class="row">
+    <% designs.forEach(design => { %>
+      <%- include("partials/design", { design: design }); -%>
+    <% }) %>
+  </div>
+
+  <div class="pagination-buttons-div">
+    <a <% if(previous_href) { %> href="<%= previous_href %>" <% } %> title="UI Design templates previous page">
+      <button class="pagination-button <% if (!has_previous_page) { %> button-disabled <% } %>">
+        <img class="pagination-button-image" src="/images/ui/arrow-previous.png" alt="previous UI design page"/>
+        <p class="previous-button-text">Previous page</p>
+      </button>
+    </a>
+    <a <% if(next_href) { %> href="<%= next_href %>" <% } %> title="UI Design templates next page">
+      <button class="pagination-button <% if (!has_next_page) { %> button-disabled <% } %>">
+        <p class="next-button-text">Next page</p>
+        <img class="pagination-button-image" src="/images/ui/arrow-next.png" alt="next UI design page"/>
+      </button>
+    </a>
+  </div>
+
+  <%- include("partials/footer"); -%>

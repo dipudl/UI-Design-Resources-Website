@@ -1,0 +1,19 @@
+<div class="col-sm-12 col-md-6 col-xl-4 col-custom">
+  <a href="/design/<%= format_for_url(design.title) %>" title="Download free UI design resource | <%= design.title %>">
+    <div class="design-item">
+      <img src="<%= design.thumbnail %> " alt="Download free UI design resource | <%= design.title %>" class="design-item-image"/>
+      <div class="design-item-text-div">
+        <h2 class="design-item-title"><%= design.title %></h1>
+        <div class="design-item-software-div">
+          <% design.softwares.forEach(software => { %>
+            <a href="/type/<%=format_for_url(software)%>" class="design-item-software" title="Download free <%= software %> design templates"><%= software %></a>
+          <% }) %>
+        </div>
+        <p class="design-item-description"><%= design.description %> </p>
+        <a href="/design/<%= format_for_url(design.title) %>" title="Download free UI design resource | <%= design.title %>">
+          <button class="design-item-button">Get it</button>
+        </a>
+      </div>
+    </div>
+  </a>
+</div>

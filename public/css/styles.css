@@ -1,0 +1,497 @@
+/* 
+Colors: Black: #191A24, Yellow: #FFE55F
+Font Family: 'Inter', sans-serif;
+*/
+
+:root {
+    /* Variables not used due to old browsers' compatibility problem (<2016)
+       Syntax => color: var(--main-black-color);
+    */
+    --main-black-color: #191A24;
+    --main-yellow-color: #FFE55F;
+    --main-font-type: 'Inter', sans-serif;
+}
+
+* {
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #191A24;
+    font-family: 'Inter', sans-serif;
+    margin: 0 6.25rem;
+}
+
+#nav-custom {
+    padding: 1.5rem 0;
+}
+
+img.logo {
+    width: 210px;
+    height: 56px;
+}
+
+#navbarText a {
+    color: #FFE55F;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 1.6rem;
+}
+
+#navbarText a:hover {
+    font-weight: 700;
+}
+
+#navbarText .last-nav-item {
+    margin-right: 0;
+}
+
+#navbarText .dropdown-menu {
+    background-color: #FFE55F;
+}
+
+#navbarText .dropdown-item {
+    color: #191A24;
+}
+
+#navbarText .dropdown-item:hover {
+    background: #191A24;
+    color: #FFE55F;
+    font-weight: 500;
+}
+
+.hero-row {
+    margin: 2.25rem 0 0;
+}
+
+.hero-text-div {
+    margin: auto 0;
+    padding-right: 1.25rem;
+    padding-left: 0;
+}
+
+.hero-h1 {
+    color: #FFE55F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 3.25rem;
+    letter-spacing: 0.02em;
+}
+
+.hero-h2 {
+    color: #FFE55F;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.375rem;
+    line-height: 2rem;
+    letter-spacing: 0.02em;
+    margin-top: 0.75rem;
+}
+
+.hero-button {
+    background: #FFE55F;
+    border: 1.5px solid #FFE55F;
+    border-radius: 5px;
+    color: #191A24;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 1rem 1.75rem;
+    margin-top: 2.375rem;
+}
+
+.hero-button:hover {
+    background: none;
+    color: #FFE55F;
+}
+
+.hero-image-div {
+    padding-left: 1.25rem;
+    padding-right: 0;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+hr.hr-style {
+    background-color: #FFE55F;
+    border: 0.7px solid #FFE55F;
+    opacity: 1;
+    height: 0;
+}
+
+.top-hr {
+    margin: 4.5rem -6.25rem 3.5rem;
+}
+
+.design-navigation {
+    margin-bottom: 3.375rem;
+}
+
+.design-tab {
+    color: #FFE55F;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    margin-right: 3.2rem;
+    padding-bottom: 1rem;
+    line-height: 4.25rem;
+    text-decoration: none;
+}
+
+.design-navigation .active {
+    font-weight: 700;
+    border-bottom: 0.2rem solid #FFE55F;
+}
+
+.design-tab:hover {
+    color: #FFE55F;
+    font-weight: 700;
+}
+
+.design-navigation .last-tab {
+    margin-right: 0;
+}
+
+.col-custom {
+    padding: 0;
+    margin-bottom: 3rem;
+}
+
+.col-custom a {
+    text-decoration: none;
+}
+
+.design-item {
+    background: #FFE55F;
+    border-radius: 7px;
+    filter: drop-shadow(3px 3px 5px rgba(255, 229, 95, 0.2));
+    height: 100%;
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+    padding-bottom: 2.875rem;
+}
+
+.design-item:hover {
+    filter: drop-shadow(3px 3px 9px rgba(255, 229, 95, 0.2));
+    margin-top: -0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.design-item-image {
+    border-radius: 7px 7px 0 0;
+    width: 100%;
+}
+
+.design-item-text-div {
+    padding: 1.375rem 1rem 1rem;
+}
+
+.design-item-title {
+    color: #191A24;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.375rem;
+}
+
+.design-item-software-div {
+    margin-top: 0.75rem;
+}
+
+.design-item-software {
+    border: 1px solid #191A24;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: #191A24;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    line-height: 2.2rem;
+    margin-right:0.5rem;
+    padding: 0.25rem 0.5rem;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+
+.design-item-software:hover {
+    background: #191A24;
+    color: #FFE55F;
+}
+
+.design-item-description {
+    color: #191A24;
+    display: -webkit-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-top: 0.65rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.design-item-button {
+    background: #191A24;
+    border: 2px solid #191A24;
+    border-radius: 5px;
+    color: #FFE55F;
+    font-family: Inter;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    padding: 0.7rem;
+    transition: all .3s ease-in-out;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 1rem;
+    width: calc(100% - 32px);
+}
+
+.design-item-button:hover {
+    background: none;
+    background-position: left bottom;
+    color: #191A24;
+}
+
+.pagination-buttons-div {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.pagination-buttons-div a {
+    text-decoration: none;
+}
+
+.pagination-button {
+    border: 1px solid #FFE55F;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: none;
+    color: #FFE55F;
+    font-size: 1.25rem;
+    padding: 1.125rem;
+    margin: 0.5rem 1.25rem;
+    transition: all .3s ease-in-out;
+}
+
+.pagination-button:hover {
+    border: 3px solid #FFE55F;
+    font-weight: 600;
+}
+
+.pagination-button-image {
+    width: 11px;
+    height: 20px;
+}
+
+.previous-button-text {
+    display: inline;
+    margin-left: 1rem;
+}
+
+.next-button-text {
+    display: inline;
+    margin-right: 1.5rem;
+    margin-left: 1.375rem;
+}
+
+.button-disabled {
+    opacity: 0.55;
+    pointer-events: none;
+}
+
+.bottom-hr {
+    margin: 5rem -6.25rem 2.5rem;
+}
+
+.similar-designs-title {
+    color: #FFE55F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 0.02em;
+}
+
+.similar-resources {
+    margin-top: 2rem;
+    margin-bottom: 4.5rem;
+}
+
+.similar-resources a {
+    text-decoration: none;
+}
+
+.similar-resources-h3 {
+    color: #FFE55F;
+    font-family: Inter;
+    font-size: 1.375rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.similar-resources-h3:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #FFE55F;
+    padding: 1.5rem;
+    margin: 0 -6.25rem;
+    text-align: center;
+}
+
+.footer-h3 {
+    color: #191A24;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.footer-p {
+    color: #191A24;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+    .dropdown-on-hover:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        margin: 0 3rem;
+    }
+    #nav-custom {
+        text-align: center;
+    }
+    #navbarText a {
+        font-size: 1.25rem;
+        margin-right: 0;
+    }
+    .hero-text-div {
+        padding-right: 0;
+    }
+    .hero-button {
+        margin-top: 0.9rem;
+    }
+    .hero-image-div {
+        margin-top: 2rem;
+        padding-left: 0;
+    }
+    .dropdown-menu {
+        text-align: center;
+    }
+    .top-hr {
+        margin-top: 0;
+        margin-bottom: 2.5rem;
+    }
+    .top-hr {
+        margin: 0 -3rem 3.5rem;
+    }
+    .bottom-hr {
+        margin: 5rem -3rem 2.5rem;
+    }
+    footer {
+        margin: 0 -3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        margin: 0 1.5rem;
+    }
+    .top-hr {
+        margin: 4.5rem -1.5rem 3.5rem;
+    }
+    .bottom-hr {
+        margin: 5rem -1.5rem 2.5rem;
+    }
+    footer {
+        margin: 0 -1.5rem;
+    }
+}
+
+@media (max-width: 575px) {
+    #nav-custom {
+        padding-bottom: 0.75rem;
+    }
+    img.logo {
+        width: 158px;
+        height: 42px;
+    }
+    #navbarText {
+        margin-top: 1rem;
+    }
+    .hero-text-div {
+        padding-right: 0;
+        text-align: center;
+    }    
+    .hero-h1 {
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    } 
+    .hero-h2 {
+        font-size: 1.15rem;
+        line-height: 2rem;
+    }
+    .hero-button {
+        font-weight: 500;
+        font-size: 1.125rem;
+        line-height: 24px;
+        padding: 0.9rem 1.5rem;
+        margin-top: 0.9rem;
+    }  
+    .hero-image-div {
+        margin-top: 2rem;
+        padding-left: 0;
+    }
+    .top-hr {
+        margin-top: 0;
+        margin-bottom: 2.5rem;
+    }
+    .design-tab {
+        font-size: 1.25rem;
+        margin-right: 2rem;
+        padding-bottom: 0.5rem;
+        line-height: 3.25rem;
+    }
+    .design-navigation {
+        margin-bottom: 2.5rem;
+    }
+    .design-navigation .active {
+        font-weight: 700;
+        border-bottom: 0.2rem solid #FFE55F;
+    }
+    .col-custom {
+        margin-bottom: 2rem;
+    }
+    .similar-resources {
+        margin-bottom: 3rem;
+    }
+    .similar-designs-title {
+        font-size: 1.5rem;
+    }
+    .similar-resources-h3 {
+        font-size: 1.25rem;
+        padding-top: 0.375rem;
+        padding-bottom: 0.375rem;
+    }
+    .design-item {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}

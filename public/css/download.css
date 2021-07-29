@@ -1,0 +1,448 @@
+/* 
+Colors: Black: #191A24, Yellow: #FFE55F
+Font Family: 'Inter', sans-serif;
+*/
+
+:root {
+    /* Variables not used due to old browsers' compatibility problem (<2016)
+       Syntax => color: var(--main-black-color);
+    */
+    --main-black-color: #191A24;
+    --main-yellow-color: #FFE55F;
+    --main-font-type: 'Inter', sans-serif;
+}
+
+* {
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #191A24;
+    font-family: 'Inter', sans-serif;
+    margin: 0 6.25rem;
+}
+
+#nav-custom {
+    padding: 1.5rem 0 4.5rem;
+}
+
+img.logo {
+    width: 210px;
+    height: 56px;
+}
+
+#navbarText a {
+    color: #FFE55F;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 1.6rem;
+}
+
+#navbarText a:hover {
+    font-weight: 700;
+}
+
+#navbarText .last-nav-item {
+    margin-right: 0;
+}
+
+#navbarText .dropdown-menu {
+    background-color: #FFE55F;
+}
+
+#navbarText .dropdown-item {
+    color: #191A24;
+}
+
+#navbarText .dropdown-item:hover {
+    background: #191A24;
+    color: #FFE55F;
+    font-weight: 500;
+}
+
+.path-div {
+    margin-bottom: 1.75rem;
+}
+
+.path-h2 {
+    color: #FFE55F;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.path-h2:hover {
+    text-decoration: underline;
+}
+
+.path-arrow {
+    width: 8px;
+    height: 13px;
+    margin: 0 0.625rem;
+}
+
+hr.hr-style {
+    background-color: #FFE55F;
+    border: 0.7px solid #FFE55F;
+    opacity: 1;
+    height: 0;
+}
+
+.design-images-col {
+    margin-bottom: 2rem;
+}
+
+.design-display-img {
+    color: #FFE55F;
+    border: 6px solid #FFE55F;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 0.675rem;
+    width: 100%;
+}
+
+.design-download-div {
+    border-radius: 5px;
+    background: #FFE55F;
+    padding: 1.25rem 1rem;
+    height: fit-content;
+    margin-left: 1.25rem;
+}
+
+.download-h1 {
+    color: #191A24;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+    margin-bottom: 0;
+}
+
+.download-p {
+    color: #191A24;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.125rem;
+    margin-top: 1rem;
+}
+
+.download-hr {
+    border: 1px solid #191A24;
+    background: #191A24;
+    margin: 1.25rem 0;
+}
+
+.download-h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+.download-div-link {
+    color: #191A24;
+    text-decoration: none;
+}
+
+.download-div-link:hover {
+    color: #191A24;
+    text-decoration: underline;
+}
+
+.details-title {
+    font-weight: 500;
+}
+
+.download-buttons-div {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.download-button {
+    background: #191A24;
+    border: 2px solid #191A24;
+    border-radius: 5px;
+    color: #FFE55F;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.125rem;
+    margin-top: 0.5rem;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    text-align: center;
+    transition: all .3s ease-in-out;
+    width: 100%;
+}
+
+.download-button:hover {
+    background: none;
+    color: #191A24;
+}
+
+.middle-hr {
+    margin: 1.875rem -6.25rem 2.5rem;
+}
+
+.people-viewed-title {
+    color: #FFE55F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 0.02em;
+    margin-bottom: 2.5rem;
+}
+
+.col-custom {
+    margin-bottom: 3rem;
+    padding: 0;
+}
+
+.col-custom a {
+    text-decoration: none;
+}
+
+.design-item {
+    background: #FFE55F;
+    border-radius: 7px;
+    filter: drop-shadow(3px 3px 5px rgba(255, 229, 95, 0.2));
+    height: 100%;
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+    padding-bottom: 2.875rem;
+}
+
+.design-item:hover {
+    filter: drop-shadow(3px 3px 9px rgba(255, 229, 95, 0.2));
+    margin-top: -0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.design-item-image {
+    border-radius: 7px 7px 0 0;
+    width: 100%;
+}
+
+.design-item-text-div {
+    padding: 1.375rem 1rem 1rem;
+}
+
+.design-item-title {
+    color: #191A24;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.375rem;
+}
+
+.design-item-software-div {
+    margin-top: 0.75rem;
+}
+
+.design-item-software {
+    border: 1px solid #191A24;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: #191A24;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    line-height: 2.2rem;
+    margin-right:0.5rem;
+    padding: 0.25rem 0.5rem;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+
+.design-item-software:hover {
+    background: #191A24;
+    color: #FFE55F;
+}
+
+.design-item-description {
+    color: #191A24;
+    display: -webkit-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-top: 0.65rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.design-item-button {
+    background: #191A24;
+    border: 2px solid #191A24;
+    border-radius: 5px;
+    color: #FFE55F;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+    padding: 0.7rem;
+    transition: all .3s ease-in-out;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 1rem;
+    width: calc(100% - 32px);
+}
+
+.design-item-button:hover {
+    background: none;
+    background-position: left bottom;
+    color: #191A24;
+}
+
+.bottom-hr {
+    margin: 2.8rem -6.25rem 2.5rem;
+}
+
+.similar-designs-title {
+    color: #FFE55F;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 0.02em;
+}
+
+.similar-resources {
+    margin-top: 2rem;
+    margin-bottom: 4.5rem;
+}
+
+.similar-resources a {
+    text-decoration: none;
+}
+
+.similar-resources-h3 {
+    color: #FFE55F;
+    font-family: Inter;
+    font-size: 1.375rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.similar-resources-h3:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #FFE55F;
+    padding: 1.5rem;
+    margin: 0 -6.25rem;
+    text-align: center;
+}
+
+.footer-h3 {
+    color: #191A24;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.footer-p {
+    color: #191A24;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+    .dropdown-on-hover:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    body {
+        margin: 0 3rem;
+    }
+    .design-download-div {
+        margin-left: 0;
+    }
+    #nav-custom {
+        text-align: center;
+    }
+    #navbarText a {
+        font-size: 1.25rem;
+        margin-right: 0;
+    }
+    .dropdown-menu {
+        text-align: center;
+    }
+    .middle-hr {
+        margin: 1.875rem -3rem 2.5rem;
+    }
+    .bottom-hr {
+        margin: 2.8rem -3rem 2.5rem;
+    }
+    footer {
+        margin: 0 -3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        margin: 0 1.5rem;
+    }
+    .middle-hr {
+        margin: 1.875rem -1.5rem 2.5rem;
+    }
+    .bottom-hr {
+        margin: 2.8rem -1.5rem 2.5rem;
+    }
+    footer {
+        margin: 0 -1.5rem;
+    }
+}
+
+@media (max-width: 575px) {
+    #nav-custom {
+        padding-bottom: 3.5rem;
+    }
+    img.logo {
+        width: 158px;
+        height: 42px;
+    }
+    #navbarText {
+        margin-top: 1rem;
+    }
+    .path-h2 {
+        font-size: 1.15rem;
+    }
+    .design-images-col {
+        margin-bottom: 1.5rem;
+    }
+    .download-h1 {
+        font-size: 1.5rem;
+    }
+    .people-viewed-title {
+        font-size: 1.5rem;
+    }
+    .col-custom {
+        margin-bottom: 2rem;
+    }
+    .bottom-hr {
+        margin-top: 2rem;
+    }
+    .similar-resources {
+        margin-bottom: 3rem;
+    }
+    .similar-designs-title {
+        font-size: 1.5rem;
+    }
+    .similar-resources-h3 {
+        font-size: 1.25rem;
+        padding-top: 0.375rem;
+        padding-bottom: 0.375rem;
+    }
+    .design-item {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
