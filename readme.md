@@ -2,7 +2,7 @@
 
 A website to explore and download great UI design kits & templates for awesome projects
 
-Visit website: [https://ui-design.leminect.com](https://ui-design.leminect.com)
+Visit website: [http://ui-design.leminect.com](http://ui-design.leminect.com)
 
 Some pages:
 
